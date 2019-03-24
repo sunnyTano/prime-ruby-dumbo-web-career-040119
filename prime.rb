@@ -1,6 +1,11 @@
 def isPrime?(num)
-  if num % 2 == 0
-  return false
+i = 2
+while i >= num
+
 end
-return true
+
+i = 0
+until i == 5
+   puts i
+   i += 1
 end
