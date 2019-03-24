@@ -1,8 +1,7 @@
 def isPrime?(num)
 i = 2
 while i > num
-if num % i == 0
-  return false
+return false if num % i == 0
   i++
 end 
 true
