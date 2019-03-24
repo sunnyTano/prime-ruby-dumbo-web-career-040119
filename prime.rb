@@ -3,5 +3,5 @@ def isPrime?(num)
   if num % 2 === 0
   return false
 end
-true
+return true
 end
