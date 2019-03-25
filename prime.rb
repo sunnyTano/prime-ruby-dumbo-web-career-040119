@@ -1,4 +1,4 @@
-def prime?(n)
+ def prime?(n)
     if n <= 1
         return false
     elsif n <= 3
@@ -6,4 +6,12 @@ def prime?(n)
     elsif n%2 == 0 or n%3 == 0
         return false
     end
-  end
+    i = 5
+    while (i*i <= n) do
+        if n % i == 0 or n % (i + 2) == 0
+            return false
+        end
+        i = i + 6
+    end
+    return true
+end
