@@ -1,5 +1,7 @@
 def prime?(num)
 i = 2
+if num < 1
+  puts false
 while i < num
 return false if num % i == 0 || num < 1
   i++
